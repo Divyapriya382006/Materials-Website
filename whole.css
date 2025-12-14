@@ -9,6 +9,10 @@ nav ul {
     list-style-type: none;
 }
 
+p{
+    color:black;
+}
+
 nav a {
     /* background-color: rgb(74, 167, 201); */
     color: white;
@@ -28,6 +32,9 @@ body{
     background-color: rgb(230, 233, 236);
     padding: 20px;
     margin:0;
+    font-family: 'Segoe UI', sans-serif;
+   
+    
 }
 .h1{
   left:-20px;
@@ -215,12 +222,7 @@ width: 200px;
 .cool:hover{
     transform: scale(1.07)
 }
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-  padding: 20px;
-  padding: 0 15px;
-}
+
 /* h1 {
   color: #004488;
   text-align: center;
