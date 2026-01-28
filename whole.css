@@ -305,6 +305,7 @@ img[alt="visitor count"] {
   font-weight: bold;
   margin:0 auto;
 margin:-15px 20px;
+    text-wrap:nowrap;
 }
 
 .card h3{
