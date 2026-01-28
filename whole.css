@@ -16,7 +16,9 @@ p{
 p,h1,h2,h3,h4{
     margin:20px;
 }
-
+h3 a{
+    margin:10px;
+}
 nav a {
     /* background-color: rgb(74, 167, 201); */
     color: white;
