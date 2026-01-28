@@ -106,6 +106,7 @@ html, body {
   font-family: 'Segoe UI', sans-serif;
   background-color: rgb(141, 169, 204);
   overflow-x: hidden;
+     box-sizing: border-box;
 }
 
 .labdd{
