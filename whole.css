@@ -95,13 +95,17 @@ img{
 .top:hover{
     transform:translateY(2px);
 }
-*{
-  margin:0;
-  padding:0;
-  /* box-sizing: border-box; */
-  margin-left:-5px;
-  margin-right:-5px;
+* {
+  box-sizing: border-box;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: rgb(141, 169, 204);
+  overflow-x: hidden;
+}
+
 .labdd{
   background-color:  rgb(141, 169, 204);
   color: solid black
@@ -137,7 +141,8 @@ h2{
 }
 
 .book-img {
-    width: 200px;
+    width: 100%;
+max-width: 800px;
     height: 250px;
     border-radius: 5px;
    transition: transform 0.2s ease;
@@ -159,7 +164,9 @@ width: 400px;
 }
 
 .cat{
-   width: 200px;
+ width: 100%;
+max-width: 800px;
+
     height: 300px;
     border-radius: 5px;
    transition: transform 0.2s ease;
@@ -177,7 +184,9 @@ width: 400px;
 }
 
 .course{
-    width:600px;
+    width: 100%;
+max-width: 800px;
+
     align-content: center ;
 }
 
@@ -190,7 +199,9 @@ width: 400px;
     grid-column: 30px;
     flex-wrap: wrap;
     gap: 30px;
-    width: 800px;
+    width: 100%;
+max-width: 800px;
+
     height: 100px;
     border-radius: 5px;
    transition: transform 0.2s ease;
@@ -203,7 +214,9 @@ margin:20px;
 }
 
 .vase{
-width: 200px;
+width: 100%;
+max-width: 800px;
+
     border-radius: 5px;
    transition: transform 0.2s ease;
     position: fixed;
@@ -231,7 +244,9 @@ width: 200px;
     grid-column: 30px;
     flex-wrap: wrap;
     gap: 30px;
-    width: 200px;
+    width: 100%;
+max-width: 800px;
+
     height: 50px;
     border-radius: 5px;
    transition: transform 0.2s ease;
