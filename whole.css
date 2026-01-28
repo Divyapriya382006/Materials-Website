@@ -154,10 +154,10 @@ h2{
 h3{
 display: block;
 height: 30px ;
-border-radius: 10px;
+border-radius: 8px;
 /* background-color:rgb(100, 230, 232) ; */
  background: linear-gradient(to left, rgb(73, 108, 160), rgb(51, 99, 163));
-padding: 4px 7px;
+padding: 20px;
 width: 400px;
 }
 
