@@ -81,7 +81,7 @@ img{
     display: flex;
     flex-direction: row;
     gap:66px;
-    background-color: rgb(141, 169, 204);
+    background-color: rgb(255,255,255);
     color:black;
     padding:15px;
     justify-content: center;
