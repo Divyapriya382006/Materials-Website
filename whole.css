@@ -81,7 +81,7 @@ img{
     display: flex;
     flex-direction: row;
     gap:66px;
-    background:radial-gradient(circle, rgb(31, 69, 130),rgb(158, 203, 245) );
+    background:radial-gradient(circle, rgb(158, 203, 245),rgb(31, 69, 130) );
     color:black;
     padding:15px;
     justify-content: center;
