@@ -278,7 +278,7 @@ img[alt="visitor count"] {
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   padding: 20px;
-  max-width: 1200px;
+  max-width: auto;
   margin: 0 auto;
 }
 
@@ -286,11 +286,12 @@ img[alt="visitor count"] {
   background: rgb(223, 220, 214);
   border:3px solid  rgb(51, 99, 163);
   border-radius: 15px;
-  padding: 10px;
+  padding: 20px ;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.3s ease;
    max-width: 1000px;
   margin: 20px;
+  justify-content: center;
 }
 
 .card:hover {
@@ -302,6 +303,12 @@ img[alt="visitor count"] {
   text-decoration: none;
   color: #e5e7ea;
   font-weight: bold;
+  margin:0 auto;
+margin:-15px 20px;
+}
+
+.card h3{
+    padding:20px;
 }
 
 .card p {
@@ -309,10 +316,7 @@ img[alt="visitor count"] {
   font-size: 0.95rem;
   margin-top: 8px;
 }
-h3, .syl, .last {
-  width: 100%;
-  max-width: 100%;
-}
+
 
 
 .last{
