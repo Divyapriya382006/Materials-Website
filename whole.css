@@ -38,7 +38,9 @@ html,body{
     background-color: rgb(141, 169, 204);
     margin:0;
     font-family: 'Segoe UI', sans-serif;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:0px;
     text-wrap:nowrap
 }
 .h1{
