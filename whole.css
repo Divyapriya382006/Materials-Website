@@ -92,7 +92,7 @@ img{
   align-items: center;
     margin:20px;
     border-radius:50px;
-    border:3px solid white;
+    border:3px solid  rgb(51, 99, 163);
     box-shadow:4px 4px 10px rgb(141, 169, 204);
     color:black;
 }
