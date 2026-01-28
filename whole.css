@@ -33,6 +33,7 @@ body{
     margin:0;
     font-family: 'Segoe UI', sans-serif;
     padding: 20px;
+    text-wrap:nowrap
 }
 .h1{
   left:-20px;
