@@ -13,6 +13,10 @@ p{
     color:black;
 }
 
+p,h1,h2,h3,h4{
+    margin:20px;
+}
+
 nav a {
     /* background-color: rgb(74, 167, 201); */
     color: white;
@@ -27,7 +31,9 @@ nav a {
     background-color: rgb(57, 120, 152);
     transform: scale(1.06);
 } */
-body{
+
+
+html,body{
     /* background: linear-gradient(to left, rgb(73, 108, 160), rgb(51, 99, 163)); */
     background-color: rgb(230, 233, 236);
     margin:0;
